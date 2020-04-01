@@ -27,6 +27,7 @@ int main()
     uLCD.color(RED);
     //correct
     //uLCD.triangle(10, 10, 10, 20, 20, 10, 0xFFFFF);
+    //drawing a square with foue lines.
     uLCD.line(10, 10 , 10, 20, 0xFFFFFF);
     uLCD.line(10, 20 , 20, 20, 0xFFFFFF);
     uLCD.line(20, 20 , 20, 10, 0xFFFFFF);
